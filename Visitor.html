@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon image-->
+  <link rel="icon" type="image/x-icon" href="/assets/image/logo/logo1.png">
+  <!-- font awesome 6 -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- gallery -->
+  <link rel="stylesheet" href="assets/css/lc_lightbox.css">
+  <link rel="stylesheet" href="assets/css/minimal.css">
+  <!-- boostrap css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>E-HealthBD</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/image/logo/logo1.png" alt="image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ogranizationlist.html">Mission & Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="doctor_detils.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Eng/বাংলা
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="doctorlist.html">Bangla</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div>
+            <div class="btn-group ms-1">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Registration
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="doctor_reg.html">Doctor</a></li>
+                <li><a class="dropdown-item" href="Visitor.html">Visitor</a></li>
+                <li><a class="dropdown-item" href="Reg_form2.html">Organizition</a></li>
+              </ul>
+            </div>
+            <div class="ms-1">
+              <a href="login.html" class="btn btn-success text-white text-decoration-none">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- top bar end -->
+
+
+  <div class="container visitor_from py-5">
+    <div class="section-title col-12">
+      <h2 class="text-light">VISITOR REGISTRATION FORM</h2>
+    </div>
+
+    <form action="forms/appointment.php" method="post" class="php-email-form px-4">
+      <div class="row text-light card-body">
+        <div class=" col-lg-6 col-12 p-2">
+          <label for="inputAddressname" class="form-label">Name:<samp class="text-danger">*</samp></label>
+          <input type="text" class="form-control" required id="inputAddressname" placeholder="Enter your Full Name">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputgender34" class="form-label">Gendar<samp class="text-danger">*</samp></label>
+          <select required id="inputgender34" class="form-select">
+            <option selected>Select Gendar</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputAddressmob" class="form-label">Mobile No:<samp class="text-danger">*</samp></label>
+          <input type="email" class="form-control" required id="inputAddressmob" placeholder="Enter Mobile Number">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputAddresspass" class="form-label">Password:<samp class="text-danger">*</samp></label>
+          <input type="password" class="form-control" required id="inputAddresspass" placeholder="Enter Password">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputAddresscompp" class="form-label">Confirm Password:<samp class="text-danger">*</samp></label>
+          <input type="password" class="form-control" required id="inputAddresscompp" placeholder="Confirm Password">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputAddressaddress" class="form-label">Address:<samp class="text-danger">*</samp></label>
+          <input type="text" class="form-control" id="inputAddressaddress">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputAddressdate" class="form-label">Date Of Birth:<samp class="text-danger">*</samp></label>
+          <input type="email" class="form-control" required id="inputAddressdate" placeholder="Enter your Email">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputAddressoccupation" class="form-label">Occupation:</label>
+          <input type="text" class="form-control" id="inputAddressoccupation" placeholder="Enter your Email">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputStateblood" class="form-label">Blood Group<samp class="text-danger">*</samp></label>
+          <select id="inputStateblood" class="form-select">
+            <option selected>Select</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+          </select>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputAddressdonate" class="form-label">Last Donate Date:</label>
+          <input type="text" class="form-control" id="inputAddressdonate" placeholder="Enter Doctor Designation">
+        </div>
+        <div class="col-lg-12 col-12 p-4 text-center">
+          <div class="d-grid col-6 mx-auto mt-3">
+            <button class="btn btn-primary" type="button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- Appointment Section End -->
+  <!-- ======= footer ======= -->
+  <footer id="footer">
+    <div class="container footer-top">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Health-BD</h3>
+          <p>
+            A108 Adam Street <br>
+            Chattogram Softwere Park<br>
+            Agbrabd, Chattogram <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Departments</h4>
+          <ul>
+            <li><a href="#">Pediatric</a></li>
+            <li><a href="#">Laboratory</a></li>
+            <li><a href="#">Odontology</a></li>
+            <li><a href="#">Physiotherapy</a></li>
+            <li><a href="#">Ophthalmology</a></li>
+            <li><a href="#">Cynecology</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">How We Are</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Our Awards</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Our Professionals</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Opening Hours</h4>
+          <table>
+            <tr>
+              <td>Saturday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Monday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Tuesday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Wedneday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Friday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+          </table>
+          <form action="post" method="post">
+            <input type="email" name="email">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+        <div class="col-6 p-1">
+          <p>© 2022 Your Company - By Health-BD</p>
+        </div>
+        <div class="col-6 p-1 footer_icon">
+          <div class="float-end social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- end Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- owl carousel js -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/purecounter.js"></script>
+  <!-- Gallary -->
+  <script src="assets/js/lc_lightbox.lite.js"></script>
+
+</body>
+
+</html>

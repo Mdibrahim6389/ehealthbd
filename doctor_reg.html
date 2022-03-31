@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon image-->
+  <link rel="icon" type="image/x-icon" href="/assets/image/logo/logo1.png">
+  <!-- font awesome 6 -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- gallery -->
+  <link rel="stylesheet" href="assets/css/lc_lightbox.css">
+  <link rel="stylesheet" href="assets/css/minimal.css">
+  <!-- boostrap css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>E-HealthBD</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/image/logo/logo1.png" alt="image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ogranizationlist.html">Mission & Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="doctor_detils.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Eng/বাংলা
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="doctorlist.html">Bangla</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div>
+            <div class="btn-group ms-1">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Registration
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="doctor_reg.html">Doctor</a></li>
+                <li><a class="dropdown-item" href="Visitor.html">Visitor</a></li>
+                <li><a class="dropdown-item" href="Reg_form2.html">Organizition</a></li>
+              </ul>
+            </div>
+            <div class="ms-1">
+              <a href="login.html" class="btn btn-success text-white text-decoration-none">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- top bar end -->
+
+
+  <div class="container doctorreg_section">
+    <div class="col-12">
+      <h2 class="text-light">DOCTOR'S REGISTRATION FORM</h2>
+    </div>
+    <form action="forms/appointment.php" method="post" class="php-email-form px-4">
+      <div class="row text-light card-body">
+        <div class=" col-lg-6 col-12 p-2">
+          <label for="inputname" class="form-label">Doctor's Name:<samp class="text-danger">*</samp></label>
+          <input type="text" class="form-control" required id="inputname" placeholder="Enter Doctor Full Name">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputState" class="form-label">Gendar<samp class="text-danger">*</samp></label>
+          <select id="inputState" class="form-select">
+            <option selected>Select</option>
+            <option>Male</option>
+            <option>Femaile</option>
+          </select>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputpic" class="form-label">Doctor's Picture:<samp class="text-danger">*</samp></label>
+          <input type="file" class="form-control" required id="inputpic">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputquaifi" class="form-label">Qualifications:</label>
+          <input type="text" class="form-control" id="inputquaifi" placeholder="Enter your Email">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputexpert" class="form-label">Expert In<samp class="text-danger">*</samp></label>
+          <select id="inputexpert" class="form-select">
+            <option selected>Select</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
+          </select>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputdesination" class="form-label">Designation</label>
+          <input type="text" class="form-control" id="inputdesination" placeholder="Enter Doctor Designation">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputorg" class="form-label">Organisation</label>
+          <input type="text" class="form-control" id="inputorg" placeholder="Enter Organizition Name">
+        </div>
+        <div class="col-lg-12 text-center mt-4">
+          <h4>Chamber-1</h4>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputnme1" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputnme1" placeholder="Enter Chamber Name">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputhour1" class="form-label">Visiting Hour</label>
+          <input type="text" class="form-control" id="inputhour1" placeholder="Enter Visiting Hour">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputlocatin1" class="form-label">Location<samp class="text-danger">*</samp></label>
+          <select id="inputlocatin1" class="form-select">
+            <option selected>Select</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
+          </select>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputserial1" class="form-label">For Serial</label>
+          <input type="number" class="form-control" id="inputserial1" placeholder="Enter your Mobile Number">
+        </div>
+        <div class="col-lg-12 text-center mt-4">
+          <h4>Chamber-2</h4>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputname2" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputname2" placeholder="Enter Chamber Name">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputvisitin2" class="form-label">Visiting Hour</label>
+          <input type="text" class="form-control" id="inputvisitin2" placeholder="Enter Visiting Hour">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputlocation2" class="form-label">Location<samp class="text-danger">*</samp></label>
+          <select id="inputlocation2" class="form-select">
+            <option selected>Select</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
+          </select>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputserial2" class="form-label">For Serial</label>
+          <input type="number" class="form-control" id="inputserial2" placeholder="Enter your Mobile Number">
+        </div>
+        <div class="col-lg-12 text-center mt-4">
+          <h4>User Creation</h4>
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputemail2" class="form-label">E-mail / Mobile No.</label>
+          <input type="email" class="form-control" id="inputemail2" placeholder="Enter E-mail/Mobile Number">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputpass2" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputpass2" placeholder="Enter Password">
+        </div>
+        <div class="col-lg-6 col-12 p-2">
+          <label for="inputcomfirmp" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control" id="inputcomfirmp" placeholder="Confirm Password">
+        </div>
+        <div class="col-lg-12 col-12 p-4 text-center">
+          <div class="d-grid col-6 mx-auto">
+            <button class="btn btn-primary" type="button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- Appointment Section End -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container footer-top">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Health-BD</h3>
+          <p>
+            A108 Adam Street <br>
+            Chattogram Softwere Park<br>
+            Agbrabd, Chattogram <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Departments</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Pediatric</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Laboratory</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Odontology</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Physiotherapy</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Ophthalmology</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Cynecology</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">How We Are</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms & Conditions</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Our Awards</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Testimonials</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Our Professionals</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Opening Hours</h4>
+          <table>
+            <tr>
+              <td>Saturday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Monday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Tuesday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Wedneday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Friday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+          </table>
+          <form action="#" method="post">
+            <input type="email" name="email">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+        <div class="col-6 p-1">
+          <p>© 2022 Your Company - By Unitemplates</p>
+        </div>
+        <div class="col-6 p-1 footer_icon">
+          <div class="float-end social">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-mail-line"></i></a>
+            <a href="#"> <i class="ri-linkedin-box-fill"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+
+  <!-- owl carousel js -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/purecounter.js"></script>
+  <!-- Gallary -->
+  <script src="assets/js/lc_lightbox.lite.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon image-->
+  <link rel="icon" type="image/x-icon" href="/assets/image/logo/logo1.png">
+  <!-- font awesome 6 -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- gallery -->
+  <link rel="stylesheet" href="assets/css/lc_lightbox.css">
+  <link rel="stylesheet" href="assets/css/minimal.css">
+  <!-- boostrap css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>E-HealthBD</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/image/logo/logo1.png" alt="image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ogranizationlist.html">Mission & Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="doctor_detils.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Eng/বাংলা
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="doctorlist.html">Bangla</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div>
+            <div class="btn-group ms-1">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Registration
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="doctor_reg.html">Doctor</a></li>
+                <li><a class="dropdown-item" href="Visitor.html">Visitor</a></li>
+                <li><a class="dropdown-item" href="Reg_form2.html">Organizition</a></li>
+              </ul>
+            </div>
+            <div class="ms-1">
+              <a href="login.html" class="btn btn-success text-white text-decoration-none">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- top bar end -->
+
+  <!--- arousel/slider section start -->
+  <div class="container carousel_slider  mb-3">
+    <div class="owl-one owl-carousel owl-theme">
+      <div class="item"><img src="assets/image/slider/gallery-1.jpg" alt="image1"></div>
+      <div class="item"><img src="assets/image/slider/gallery-2.jpg" alt="image2"></div>
+      <div class="item"><img src="assets/image/slider/gallery-3.jpg" alt="image3"></div>
+      <div class="item"><img src="assets/image/slider/gallery-4.jpg" alt="image4"></div>
+      <div class="item"><img src="assets/image/slider/gallery-5.jpg" alt="image5"></div>
+      <div class="item"><img src="assets/image/slider/gallery-6.jpg" alt="image6"></div>
+      <div class="item"><img src="assets/image/slider/gallery-8.jpg" alt="image6"></div>
+      <div class="item"><img src="assets/image/slider/gallery-9.jpg" alt="image6"></div>
+    </div>
+  </div>
+  <!-- carousel/slider section end -->
+
+  <!-- find doctor section star -->
+  <div class="about container">
+    <div class="row p-4">
+      <div class="section-title">
+        <h2 class="text-light">Find Doctor</h2>
+      </div>
+      <div class="col-xs-4 col-md-4 mb-2">
+        <input class="form-control btn-outlinr-primary" type="text" placeholder="Enter Doctor Name" aria-label="text">
+      </div>
+      <div class="col-xs-4 col-md-4 mb-2">
+        <select class="form-select btn-outlinr-primary" aria-label="Default select example">
+          <option selected>Search By Speciality</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-xs-4 col-md-4 mb-2">
+        <select class="form-select btn-outlinr-primary" aria-label="Default select example">
+          <option selected>Select By Location</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-4 mb-2 text-center">
+      </div>
+      <div class="col-4 mb-2 text-center">
+        <button class="btn btn-danger btn-rounded mt-4 w-100" type="submit">Search</button>
+      </div>
+      <div class="col-4 mb-2 text-center">
+      </div>
+    </div>
+  </div>
+  <!-- find doctor section end -->
+
+  <!-- appointment aection end -->
+  <div class="container appointment_section">
+    <div class="p-4">
+      <div class="d-grid gap-2 col-12 text-center">
+        <a href="appoiment.html" class="btn btn-primary m-auto w-75 p-2">Online Appointment</a>
+      </div>
+    </div>
+  </div>
+  <!-- appointment section end -->
+
+  <!-- ======= counts section ======= -->
+
+  <div class="counts container">
+    <div class="row">
+      <div class="col-lg-3 col-6 col-md-sm-6">
+        <div class="count-box">
+          <i class="fas fa-user-md"></i>
+          <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Verified Doctors</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6 mb-2">
+        <div class="count-box">
+          <i class="far fa-hospital"></i>
+          <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Departments Speciliaty</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="count-box">
+          <i class="fas fa-flask"></i>
+          <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Hospital & Labs</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="count-box">
+          <i class="fas fa-award"></i>
+          <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1"
+            class="purecounter"></span>
+          <p>Patients Served</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end counts section -->
+
+  <!-- ======= browse section start ======= -->
+  <div class="services">
+    <div class=" container pt-2">
+      <div class="section-title">
+        <h2 class="mt-3">Browse on Speciliaty</h2>
+      </div>
+      <div class="row doctor_service">
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Doctors/ডাক্তার</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Hospital & Diagnostic Lab</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Health Bd Doctor Chamber & Digital Health Center</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/service_logo/Dental.png" alt="">
+              </div>
+              <h6><a href="">Dental/দাঁত</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/service_logo/Eye.png" alt="">
+              </div>
+              <h6><a href="">Eye/ চোখ</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Pharmacy/ ফার্মেসী/ মেডিসিন </a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Investigation</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Home Service/ হোম সার্ভিস</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="healthcard.html">Health Card/ হেলথ কার্ড</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Physiotherpy Center</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Ambulance Service</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Blood Bank & Others</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======= browse section end ======= -->
+
+  <!-- ======= doctor section end ======= -->
+  <div class="doctors">
+    <div class="container">
+      <div class="section-title mt-4">
+        <h2>Doctors</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-6 mb-5 ">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/image/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Walter White</h4>
+              <span>Chief Medical Officer</span>
+              <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+              <div class="social">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-5 mt-lg-0">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/image/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Sarah Jhonson</h4>
+              <span>Anesthesiologist</span>
+              <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+              <div class="social">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-5 mt-lg-0">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/image/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Sarah Jhonson</h4>
+              <span>Anesthesiologist</span>
+              <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+              <div class="social">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/image/doctors/doctors-3.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>William Anderson</h4>
+              <span>Cardiology</span>
+              <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+              <div class="social">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/image/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Amanda Jepson</h4>
+              <span>Neurosurgeon</span>
+              <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+              <div class="social">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assets/image/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Amanda Jepson</h4>
+              <span>Neurosurgeon</span>
+              <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+              <div class="social">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======= doctors section star ======= -->
+
+  <!-- ======= hospital & dagnostic section start ======= -->
+  <div id="services" class="bg-ligt">
+    <div class="services container">
+      <div class="section-title">
+        <h2 class="p-4">Hospital & Diagnostic Lab</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/epi.png" alt="">
+              </div>
+              <h6><a href="">Epic Health Care Ltd</a></h6>
+              <p>Address:<br>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Chevron</a></h6>
+              <p>Address:<br>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">IBN Sina Diangnostic Ltd</a></h6>
+              <p>Address:<br>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Park view Hospital Ltd</a></h6>
+              <p>Address:<br>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Chattogram Metropalitan Hashpatal Ltd</a></h6>
+              <p>Address:<br>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-6">
+          <div class="icon-box d-flex justify-content-center align-items-center">
+            <div>
+              <div class="icon"><img class="img-fulid hospital_logo" src="assets/image/hostpital/Chevron-Logo.png"
+                  alt="">
+              </div>
+              <h6><a href="">Islami Bank Hospital Ltd</a></h6>
+              <p>Address:<br>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======= hospital & diagnostic section end ======= -->
+
+  <!-- ======blog post star ======= -->
+  <div class="gallery">
+    <div class="gallery container">
+      <div class="section-title mt-3">
+        <h2>Blog Post</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class=" blogmainsection card">
+            <img src="assets/image/blog/blog3.jpg" class="card-img-top" alt="Hollywood Sign on The Hill" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.
+              </p>
+              <a href="#" class="btn btn-primary">Redmore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="blogmainsection card">
+            <img src="assets/image/blog/blog2.jpg" class="card-img-top" alt="Palm Springs Road" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural lead-in to
+                additional content. This content is a little bit longer.
+              </p>
+              <a href="#" class="btn btn-primary">Redmore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="blogmainsection card">
+            <img src="assets/image/blog/blog1.jpg" class="card-img-top" alt="Los Angeles Skyscrapers" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <a href="#" class="btn btn-primary">Redmore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ====== blog post end ======= -->
+
+  <!-- ======= sponsor section star ======= -->
+
+  <div class="container carousel_slider">
+    <div class="owl-two owl-carousel owl-theme">
+      <div class="item"><img src="assets/image/sponsor_logo/untitled-1copy.jpg" alt="image1"></div>
+      <div class="item"><img src="assets/image/sponsor_logo/untitled-2copy.jpg" alt="image1"></div>
+      <div class="item"><img src="assets/image/sponsor_logo/untitled-3copy.jpg" alt="image1"></div>
+      <div class="item"><img src="assets/image/sponsor_logo/untitled-1copy.jpg" alt="image1"></div>
+      <div class="item"><img src="assets/image/sponsor_logo/untitled-2copy.jpg" alt="image1"></div>
+      <div class="item"><img src="assets/image/sponsor_logo/untitled-3copy.jpg" alt="image1"></div>
+      <div class="item"><img src="assets/image/sponsor_logo/untitled-1copy.jpg" alt="image1"></div>
+      <div class="item"><img src="assets/image/sponsor_logo/untitled-2copy.jpg" alt="image1"></div>
+    </div>
+  </div>
+  <!-- ======= sponsor section end ======= -->
+
+  <!-- ======= footer ======= -->
+  <footer id="footer">
+    <div class="container footer-top">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Health-BD</h3>
+          <p>
+            A108 Adam Street <br>
+            Chattogram Softwere Park<br>
+            Agbrabd, Chattogram <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Departments</h4>
+          <ul>
+            <li><a href="#">Pediatric</a></li>
+            <li><a href="#">Laboratory</a></li>
+            <li><a href="#">Odontology</a></li>
+            <li><a href="#">Physiotherapy</a></li>
+            <li><a href="#">Ophthalmology</a></li>
+            <li><a href="#">Cynecology</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">How We Are</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Our Awards</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Our Professionals</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Opening Hours</h4>
+          <table>
+            <tr>
+              <td>Saturday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Monday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Tuesday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Wedneday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Friday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+          </table>
+          <form action="post" method="post">
+            <input type="email" name="email">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+        <div class="col-6 p-1">
+          <p>© 2022 Your Company - By Health-BD</p>
+        </div>
+        <div class="col-6 p-1 footer_icon">
+          <div class="float-end social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- end Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- owl carousel js -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/purecounter.js"></script>
+  <!-- Gallary -->
+  <script src="assets/js/lc_lightbox.lite.js"></script>
+
+  <script>
+    $(".owl-one").owlCarousel({
+      loop: true,
+      margin: 20,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 1
+        }
+      }
+    });
+
+
+    $(".owl-two").owlCarousel({
+      loop: true,
+      margin: 20,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

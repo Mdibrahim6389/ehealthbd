@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon image-->
+  <link rel="icon" type="image/x-icon" href="/assets/image/logo/logo1.png">
+  <!-- font awesome 6 -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- gallery -->
+  <link rel="stylesheet" href="assets/css/lc_lightbox.css">
+  <link rel="stylesheet" href="assets/css/minimal.css">
+  <!-- boostrap css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>E-HealthBD</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/image/logo/logo1.png" alt="image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ogranizationlist.html">Mission & Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="doctor_detils.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Eng/বাংলা
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="doctorlist.html">Bangla</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div>
+            <div class="btn-group ms-1">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Registration
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="doctor_reg.html">Doctor</a></li>
+                <li><a class="dropdown-item" href="Visitor.html">Visitor</a></li>
+                <li><a class="dropdown-item" href="Reg_form2.html">Organizition</a></li>
+              </ul>
+            </div>
+            <div class="ms-1">
+              <a href="login.html" class="btn btn-success text-white text-decoration-none">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- top bar end -->
+
+  <!-- ======= contact Section ======= -->
+  <section class="contact container mb-5">
+    <div class="col-12 my-auto">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7533334266222!2d91.82445031443028!3d22.36294084627043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd9a96c03c8f5%3A0x312acaa137824f92!2sHealth-BD!5e0!3m2!1sen!2sbd!4v1648650235472!5m2!1sen!2sbd"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="section-title mt-4">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="address">
+            <i class="fa-solid fa-address-card"></i>
+            <h4>Location:</h4>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+
+          <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <h4>Email:</h4>
+            <p>info@example.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <h4>Call:</h4>
+            <p>+1 5589 55488 55s</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 mt-5 mt-lg-0">
+        <form action="forms/contact.php" method="post" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= footer ======= -->
+  <footer id="footer">
+    <div class="container footer-top">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Health-BD</h3>
+          <p>
+            A108 Adam Street <br>
+            Chattogram Softwere Park<br>
+            Agbrabd, Chattogram <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Departments</h4>
+          <ul>
+            <li><a href="#">Pediatric</a></li>
+            <li><a href="#">Laboratory</a></li>
+            <li><a href="#">Odontology</a></li>
+            <li><a href="#">Physiotherapy</a></li>
+            <li><a href="#">Ophthalmology</a></li>
+            <li><a href="#">Cynecology</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">How We Are</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Our Awards</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Our Professionals</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Opening Hours</h4>
+          <table>
+            <tr>
+              <td>Saturday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Monday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Tuesday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Wedneday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+            <tr>
+              <td>Friday:</td>
+              <td>09:00 - 19:00</td>
+            </tr>
+          </table>
+          <form action="post" method="post">
+            <input type="email" name="email">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+        <div class="col-6 p-1">
+          <p>© 2022 Your Company - By Health-BD</p>
+        </div>
+        <div class="col-6 p-1 footer_icon">
+          <div class="float-end social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- end Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- owl carousel js -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/purecounter.js"></script>
+  <!-- Gallary -->
+  <script src="assets/js/lc_lightbox.lite.js"></script>
+
+</body>
+
+</html>
